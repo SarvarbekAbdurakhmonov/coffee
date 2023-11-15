@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900');
+*{
+    box-sizing: border-box;
+    padding: o;
+    margin: 0;
+}
+body{
+    min-width: 1440px;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background: url('./img/Rectangle.png'),#f3d7b7 0% 0% / 100px 100px repeat;
+    background-blend-mode: overlay;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    margin: 0 auto;
+}
+.top-header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.list-item{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.header-bottom{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 116px;
+}
+.header-img{
+    position: relative;
+    width: 710px;
+    height: 696px;
+}
+.site-img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: -50px;
+    left: -50px;
+    transform: rotate(-25deg);
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    margin-left: 150px;
+}
+.header-content h1{
+    color: #000;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-right: 17px;
+}
+.header-content p {
+    margin-bottom: 34px;
+}
+.header-content a{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 100px;
+    background-color: #0A775F;
+    font-variant: all-small-caps;
+    text-align: center;
+}
